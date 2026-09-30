@@ -3,7 +3,7 @@
   "appName": "Stampstep",
   "webDir": "www",
   "server": {
-    "url": "https://stampstep.com",
+    "url": "https://www.stampstep.com",
     "androidScheme": "https",
     "errorPath": "erreur.html"
   },

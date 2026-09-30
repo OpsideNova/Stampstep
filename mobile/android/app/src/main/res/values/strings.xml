@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Stampstep</string>
+    <string name="title_activity_main">Stampstep</string>
+    <string name="package_name">ch.stampsteps.app</string>
+    <string name="custom_url_scheme">ch.stampsteps.app</string>
+    <!-- Notification du traceur GPS -->
+    <string name="capacitor_background_geolocation_notification_channel_name">Traceur de voyage</string>
+    <string name="capacitor_background_geolocation_notification_icon">drawable/ic_tracking</string>
+    <string name="capacitor_background_geolocation_notification_color">#D8B45C</string>
+</resources>

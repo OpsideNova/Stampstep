@@ -1,0 +1,25 @@
+{
+  "appId": "ch.stampsteps.app",
+  "appName": "Stampstep",
+  "webDir": "www",
+  "server": {
+    "url": "https://stampstep.com",
+    "androidScheme": "https",
+    "errorPath": "erreur.html"
+  },
+  "android": {
+    "useLegacyBridge": true,
+    "backgroundColor": "#0B1220"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    },
+    "LocalNotifications": {
+      "iconColor": "#D8B45C"
+    }
+  }
+}

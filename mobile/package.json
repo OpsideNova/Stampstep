@@ -1,0 +1,20 @@
+{
+  "name": "stampsteps-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stamp Steps — application Android (Capacitor) avec traceur GPS en arrière-plan",
+  "scripts": {
+    "sync": "cap sync android",
+    "icones": "capacitor-assets generate --android --iconBackgroundColor '#0B1220' --iconBackgroundColorDark '#0B1220' --splashBackgroundColor '#0B1220' --splashBackgroundColorDark '#0B1220'"
+  },
+  "dependencies": {
+    "@capacitor-community/background-geolocation": "^1.2.26",
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/local-notifications": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}

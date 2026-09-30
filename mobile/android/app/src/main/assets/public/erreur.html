@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stampstep — hors ligne</title>
+<style>
+  html,body{height:100%;margin:0}
+  body{background:#0B1220;color:#ECE6D9;font-family:system-ui,-apple-system,sans-serif;display:flex;align-items:center;
+    justify-content:center;text-align:center;padding:32px;box-sizing:border-box}
+  .seal{width:92px;height:92px;color:#D8B45C;transform:rotate(-12deg);margin:0 auto 26px}
+  h1{font-family:Georgia,serif;font-weight:400;font-size:28px;margin:0 0 12px}
+  p{color:#96A3BA;font-size:15px;line-height:1.6;margin:0 auto 26px;max-width:32ch}
+  button{background:#D8B45C;color:#17202F;border:none;border-radius:6px;padding:13px 22px;font-size:15px;font-weight:600}
+</style>
+</head>
+<body>
+<div>
+  <svg class="seal" viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="50" cy="50" r="46" stroke-width="4"/>
+    <circle cx="50" cy="50" r="27" stroke-width="1.6"/></g><path fill="currentColor" d="M50 30 L55 45 L70 50 L55 55 L50 70 L45 55 L30 50 L45 45 Z"/></svg>
+  <h1>Pas de connexion au carnet</h1>
+  <p>Le serveur Stampstep ne répond pas. Vérifiez le réseau, puis réessayez. Si le traceur était actif, vos points sont gardés et partiront au retour de la connexion.</p>
+  <button onclick="location.href=window.Capacitor&&Capacitor.getServerUrl?Capacitor.getServerUrl():'/'">Réessayer</button>
+</div>
+</body>
+</html>

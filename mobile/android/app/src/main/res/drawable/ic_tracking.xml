@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône de notification : le sceau Stamp Steps, en blanc sur fond transparent -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="100" android:viewportHeight="100">
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:pathData="M50,6 A44,44 0 1,1 49.99,6 Z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M50,24 L56.5,43.5 L76,50 L56.5,56.5 L50,76 L43.5,56.5 L24,50 L43.5,43.5 Z" />
+</vector>
